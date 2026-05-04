@@ -1,0 +1,202 @@
+[
+  {
+    "definition": "A heritable trait that increases an organism’s fitness in a specific environment.",
+    "word": "Adaptation"
+  },
+  {
+    "definition": "The rapid diversification of a single ancestral lineage into multiple species occupying different ecological niches.",
+    "word": "Adaptive Radiation"
+  },
+  {
+    "definition": "The proportion of a specific allele among all allele copies in a population.",
+    "word": "Allele Frequency"
+  },
+  {
+    "definition": "The formation of new species due to geographic separation of populations.",
+    "word": "Allopatric Speciation"
+  },
+  {
+    "definition": "A trait shared by multiple taxa that was present in their common ancestor.",
+    "word": "Ancestral Characteristic"
+  },
+  {
+    "definition": "The intentional breeding of organisms by humans to select for specific traits.",
+    "word": "Artificial Selection"
+  },
+  {
+    "definition": "A prezygotic barrier in which differences in courtship behaviors prevent mating.",
+    "word": "Behavioral Isolation"
+  },
+  {
+    "definition": "A drastic reduction in population size leading to decreased genetic diversity.",
+    "word": "Bottleneck"
+  },
+  {
+    "definition": "A statistical test used to compare observed data with expected outcomes under a specific hypothesis.",
+    "word": "Chi Square"
+  },
+  {
+    "definition": "A diagram that depicts evolutionary relationships based on shared derived characteristics.",
+    "word": "Cladogram"
+  },
+  {
+    "definition": "The most recent shared ancestor from which two or more species have diverged.",
+    "word": "Common Ancestor"
+  },
+  {
+    "definition": "A trait that is unique to a particular clade and not found in distant ancestors.",
+    "word": "Derived Characteristic"
+  },
+  {
+    "definition": "A type of natural selection that favors one extreme phenotype over others.",
+    "word": "Directional Selection"
+  },
+  {
+    "definition": "A type of selection that favors individuals at both extremes of a trait distribution.",
+    "word": "Disruptive selection"
+  },
+  {
+    "definition": "The change in the genetic composition of a population over generations.",
+    "word": "Evolution"
+  },
+  {
+    "definition": "A form of genetic drift that occurs when a small group establishes a new population.",
+    "word": "Founder Effect"
+  },
+  {
+    "definition": "A type of selection in which the fitness of a phenotype depends on its frequency in the population.",
+    "word": "Frequency Dependent"
+  },
+  {
+    "definition": "The transfer of alleles between populations through migration of individuals or gametes.",
+    "word": "Gene Flow"
+  },
+  {
+    "definition": "Random changes in allele frequencies due to chance events.",
+    "word": "Genetic Drift"
+  },
+  {
+    "definition": "The genetic makeup of an organism with respect to a particular trait.",
+    "word": "Genotype"
+  },
+  {
+    "definition": "Physical separation of populations by geographic barriers, limiting gene flow.",
+    "word": "Geographic Isolation"
+  },
+  {
+    "definition": "Having two different alleles for a given gene.",
+    "word": "Heterozygous"
+  },
+  {
+    "definition": "Having two identical alleles for a given gene.",
+    "word": "Homozygous"
+  },
+  {
+    "definition": "Offspring resulting from the mating of individuals from different species or genetically distinct populations.",
+    "word": "Hybrid"
+  },
+  {
+    "definition": "A postzygotic barrier where hybrid offspring are viable but have reduced fitness in subsequent generations.",
+    "word": "Hybrid Breakdown"
+  },
+  {
+    "definition": "A postzygotic barrier where fertilization occurs but the zygote fails to develop properly.",
+    "word": "Hybrid Inviability"
+  },
+  {
+    "definition": "Large-scale evolutionary changes that occur over long periods, often resulting in new taxa.",
+    "word": "Macroevolution"
+  },
+  {
+    "definition": "A prezygotic barrier caused by structural differences that prevent successful mating.",
+    "word": "Mechanical Isolation"
+  },
+  {
+    "definition": "Small-scale evolutionary changes in allele frequencies within a population.",
+    "word": "Microevolution"
+  },
+  {
+    "definition": "A change in the DNA sequence that can introduce new genetic variation.",
+    "word": "Mutation"
+  },
+  {
+    "definition": "The differential survival and reproduction of individuals due to differences in phenotype.",
+    "word": "Natural Selection"
+  },
+  {
+    "definition": "A branching point on a cladogram representing a common ancestor.",
+    "word": "Node"
+  },
+  {
+    "definition": "A taxon used as a reference group in a cladogram to determine ancestral traits.",
+    "word": "Outgroup"
+  },
+  {
+    "definition": "The observable physical or biochemical characteristics of an organism.",
+    "word": "Phenotype"
+  },
+  {
+    "definition": "Reproductive barriers that occur after fertilization.",
+    "word": "Post Zygotic"
+  },
+  {
+    "definition": "Reproductive barriers that occur before fertilization.",
+    "word": "Prezygotic"
+  },
+  {
+    "definition": "The probability of obtaining results at least as extreme as the observed results, assuming the null hypothesis is true.",
+    "word": "P-value"
+  },
+  {
+    "definition": "Mechanisms that prevent gene flow between populations, leading to speciation.",
+    "word": "Reproductive Isolation"
+  },
+  {
+    "definition": "A change in a behavior or physiological activity resulting from a stimulus.",
+    "word": "Response"
+  },
+  {
+    "definition": "A process in which certain traits become more common due to differential reproductive success.",
+    "word": "Selection"
+  },
+  {
+    "definition": "An environmental factor that influences survival and reproductive success.",
+    "word": "Selective Pressure"
+  },
+  {
+    "definition": "A form of selection where individuals with certain traits are more likely to attract mates.",
+    "word": "Sexual Selection"
+  },
+  {
+    "definition": "The formation of new and distinct species through evolutionary processes.",
+    "word": "Speciation"
+  },
+  {
+    "definition": "A group of organisms capable of interbreeding and producing fertile offspring.",
+    "word": "Species"
+  },
+  {
+    "definition": "A type of selection that favors intermediate phenotypes and reduces variation.",
+    "word": "Stabilizing Selection"
+  },
+  {
+    "definition": "A determination that results are unlikely due to chance, often based on a threshold such as p < 0.05.",
+    "word": "Statistical Significance"
+  },
+  {
+    "definition": "A detectable change in the internal or external environment that triggers a response.",
+    "word": "Stimulus"
+  },
+  {
+    "definition": "Speciation that occurs without geographic separation, often due to ecological or genetic factors.",
+    "word": "Sympatric Speciation"
+  },
+  {
+    "definition": "A prezygotic barrier where populations reproduce at different times.",
+    "word": "Temporal Isolation"
+  },
+  {
+    "definition": "Differences in traits among individuals in a population.",
+    "word": "Variation"
+  }
+]

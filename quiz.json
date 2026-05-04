@@ -1,0 +1,102 @@
+[
+  {
+    "question": "A researcher is studying an enzyme that catalyzes the conversion of substrate S into product P. The researcher observes that increasing substrate concentration increases the reaction rate until it plateaus. When a second molecule X is added, the maximum reaction rate decreases, but substrate binding is unaffected. Which of the following best explains the effect of molecule X on the enzyme?",
+    "options": [
+      "Molecule X is a competitive inhibitor that binds to the active site and prevents substrate binding",
+      "Molecule X is a noncompetitive inhibitor that alters enzyme structure at an allosteric site",
+      "Molecule X increases activation energy by destabilizing the substrate",
+      "Molecule X denatures the enzyme by breaking peptide bonds"
+    ],
+    "correctAnswer": "Molecule X is a noncompetitive inhibitor that alters enzyme structure at an allosteric site"
+  },
+  {
+    "question": "A protein’s tertiary structure is stabilized by multiple interactions among R-groups. A student exposes the protein to a solution with a high concentration of reducing agents that specifically break disulfide bridges. Which of the following outcomes is most likely?",
+    "options": [
+      "Primary structure will be disrupted, leading to complete hydrolysis of the protein",
+      "Secondary structure will be enhanced due to increased hydrogen bonding",
+      "Tertiary structure will be altered, potentially affecting protein function",
+      "Quaternary structure will be unaffected because peptide bonds remain intact"
+    ],
+    "correctAnswer": "Tertiary structure will be altered, potentially affecting protein function"
+  },
+  {
+    "question": "In an experiment, a population of enzymes exhibits cooperativity. As substrate concentration increases, the reaction rate increases slowly at first, then rapidly, before reaching a plateau. Which of the following best explains this pattern?",
+    "options": [
+      "Binding of substrate to one active site decreases affinity at other active sites",
+      "Substrate binding induces conformational changes that increase affinity at additional active sites",
+      "Enzymes are being denatured at low substrate concentrations",
+      "ATP is required to activate each enzyme molecule independently"
+    ],
+    "correctAnswer": "Substrate binding induces conformational changes that increase affinity at additional active sites"
+  },
+  {
+    "question": "A student compares two reactions: Reaction 1 releases energy and proceeds spontaneously, while Reaction 2 requires an input of energy to proceed. When enzymes are added to both reactions, the rate of each increases, but the overall energy change remains the same. Which of the following best explains these observations?",
+    "options": [
+      "Enzymes decrease the overall free energy change of reactions",
+      "Enzymes provide energy to drive endergonic reactions",
+      "Enzymes lower activation energy without altering thermodynamic properties",
+      "Enzymes convert endergonic reactions into exergonic reactions"
+    ],
+    "correctAnswer": "Enzymes lower activation energy without altering thermodynamic properties"
+  },
+  {
+    "question": "A mutation results in the substitution of a nonpolar amino acid with a charged amino acid in the interior of a globular protein. Which of the following is the most likely consequence of this substitution?",
+    "options": [
+      "Increased stability due to stronger hydrophobic interactions",
+      "Disruption of tertiary structure due to unfavorable interactions with surrounding nonpolar residues",
+      "No change in structure because primary structure is unchanged",
+      "Enhanced formation of peptide bonds between adjacent amino acids"
+    ],
+    "correctAnswer": "Disruption of tertiary structure due to unfavorable interactions with surrounding nonpolar residues"
+  },
+  {
+    "question": "An enzyme-catalyzed reaction is carried out at increasing temperatures. The reaction rate increases up to an optimal temperature and then rapidly declines. Which of the following best explains the decline in reaction rate at high temperatures?",
+    "options": [
+      "Substrate molecules lose kinetic energy and collide less frequently",
+      "Hydrogen bonds and other interactions maintaining enzyme structure are disrupted",
+      "Activation energy increases beyond a usable threshold",
+      "ATP is depleted, preventing enzyme function"
+    ],
+    "correctAnswer": "Hydrogen bonds and other interactions maintaining enzyme structure are disrupted"
+  },
+  {
+    "question": "A researcher observes that an enzyme functions optimally at pH 7 but loses activity at pH 3. Which of the following best explains this observation?",
+    "options": [
+      "The enzyme’s primary structure is hydrolyzed at low pH",
+      "Changes in pH alter ionization states of R-groups, disrupting ionic and hydrogen bonds",
+      "Low pH increases substrate concentration beyond saturation",
+      "The enzyme requires ATP, which is unavailable at low pH"
+    ],
+    "correctAnswer": "Changes in pH alter ionization states of R-groups, disrupting ionic and hydrogen bonds"
+  },
+  {
+    "question": "A metabolic pathway is regulated by feedback inhibition, where the final product inhibits the first enzyme in the pathway. Which of the following best describes the advantage of this regulatory mechanism?",
+    "options": [
+      "It increases the overall rate of product formation regardless of conditions",
+      "It prevents the accumulation of excess product and conserves resources",
+      "It ensures that enzymes function at maximum capacity at all times",
+      "It allows substrates to bypass the first step of the pathway"
+    ],
+    "correctAnswer": "It prevents the accumulation of excess product and conserves resources"
+  },
+  {
+    "question": "A scientist studies two isomers with identical molecular formulas but different structures. One is readily soluble in water, while the other is not. Which of the following best explains this difference?",
+    "options": [
+      "Differences in covalent bonding patterns alter polarity and intermolecular interactions",
+      "One molecule contains peptide bonds while the other does not",
+      "Both molecules have identical polarity but different molecular masses",
+      "One molecule has a higher activation energy than the other"
+    ],
+    "correctAnswer": "Differences in covalent bonding patterns alter polarity and intermolecular interactions"
+  },
+  {
+    "question": "A researcher investigates enzyme kinetics and finds that doubling enzyme concentration while keeping substrate concentration constant results in a proportional increase in reaction rate. Which of the following best explains this result?",
+    "options": [
+      "More active sites are available to bind substrate molecules",
+      "Activation energy is reduced further with increased enzyme concentration",
+      "Substrate molecules gain more kinetic energy",
+      "The reaction becomes exergonic due to enzyme addition"
+    ],
+    "correctAnswer": "More active sites are available to bind substrate molecules"
+  }
+]
