@@ -36,12 +36,16 @@ const Points = sequelize.define('Points', {
 });
 
 // User ID allowed to use the clear command
-const allowedClearUserId = process.env.ALLOWED_CLEAR_USER_ID;
 const prefix = process.env.PREFIX || '!';
-const token = process.env.DISCORD_TOKEN;
+const token = process.env.DISCORD_TOKEN?.trim();
+const allowedClearUserId = process.env.ALLOWED_CLEAR_USER_ID?.trim();
 
 if (!token) {
   throw new Error('Missing DISCORD_TOKEN in environment.');
+}
+
+if (!allowedClearUserId) {
+  throw new Error('Missing ALLOWED_CLEAR_USER_ID in environment.');
 }
 
 // Read questions from quiz.json
