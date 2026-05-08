@@ -1,5 +1,5 @@
 const fs = require('fs');
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 const { Client, Intents, MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
 const { Sequelize, DataTypes } = require('sequelize');
 
