@@ -1,5 +1,5 @@
 const fs = require('fs');
-require('dotenv').config({ quiet: true });
+require('dotenv').config();
 const { Client, Intents, MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
 const { Sequelize, DataTypes } = require('sequelize');
 
@@ -69,6 +69,7 @@ async function getPointsFromDatabase(guildId, userId) {
 
 client.on('messageCreate', (message) => {
   if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
 
   const args = message.content.slice(prefix.length).trim().split(/ +/);
   const command = args.shift().toLowerCase();
