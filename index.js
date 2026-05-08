@@ -1,4 +1,5 @@
 const fs = require('fs');
+require('dotenv').config();
 const { Client, Intents, MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
 const { Sequelize, DataTypes } = require('sequelize');
 
@@ -34,11 +35,18 @@ const Points = sequelize.define('Points', {
   },
 });
 
-// Read configuration from config.json
-const config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
-
 // User ID allowed to use the clear command
-const allowedClearUserId = config.allowedClearUserId;
+const prefix = process.env.PREFIX || '!';
+const token = process.env.DISCORD_TOKEN?.trim();
+const allowedClearUserId = process.env.ALLOWED_CLEAR_USER_ID?.trim();
+
+if (!token) {
+  throw new Error('Missing DISCORD_TOKEN in environment.');
+}
+
+if (!allowedClearUserId) {
+  throw new Error('Missing ALLOWED_CLEAR_USER_ID in environment.');
+}
 
 // Read questions from quiz.json
 const quizData = JSON.parse(fs.readFileSync('quiz.json', 'utf8'));
@@ -65,10 +73,11 @@ async function getPointsFromDatabase(guildId, userId) {
 
 client.on('messageCreate', (message) => {
   if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
 
-  const prefix = config.prefix || '!';
   const args = message.content.slice(prefix.length).trim().split(/ +/);
   const command = args.shift().toLowerCase();
+  if (!command) return;
 
   if (command === 'quiz') {
     if (quizCooldowns.has(message.author.id)) {
@@ -209,4 +218,4 @@ function sendRandomQuote(message) {
 
 sequelize.sync();
 
-client.login(config.token);
+client.login(token);

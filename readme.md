@@ -31,8 +31,9 @@ This is a simple Discord bot written in JavaScript using the Discord.js library.
 
 3. Configure the bot:
 
-   - Create a `config.json` file based on the provided `config.example.json`.
-   - Add your Discord bot token and any other configurations.
+   - Copy `.env.example` to `.env`.
+   - Set `DISCORD_TOKEN` and `ALLOWED_CLEAR_USER_ID`.
+   - Set `PREFIX` if you want something other than the default `!`.
 
 4. Set up the database:
 
