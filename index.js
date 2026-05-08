@@ -77,6 +77,7 @@ client.on('messageCreate', (message) => {
 
   const args = message.content.slice(prefix.length).trim().split(/ +/);
   const command = args.shift().toLowerCase();
+  if (!command) return;
 
   if (command === 'quiz') {
     if (quizCooldowns.has(message.author.id)) {
